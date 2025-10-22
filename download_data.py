@@ -5,7 +5,7 @@ import shutil
 
 # Download dataset from Kaggle
 print("Downloading dataset from Kaggle...")
-path = kagglehub.dataset_download("teamincribo/stroke-prediction")
+path = kagglehub.dataset_download("fedesoriano/stroke-prediction-dataset")
 print(f"Dataset downloaded to: {path}")
 
 # Find the CSV file
